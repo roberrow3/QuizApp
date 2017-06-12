@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.General_Question1"
+    android:background="@drawable/dd">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:id="@+id/General">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="GENERAL"
+            android:textSize="50sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="1. WHICH IS THE SMALLEST PLANET IN THE SOLAR SYSTEM?"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_PLUTO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickPLT"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="PLUTO" />
+
+        <Button
+            android:id="@+id/btn_MERCURY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickmec"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="MERCURY" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:onClick="back"
+        android:id="@+id/back"
+        android:background="@android:color/holo_blue_bright"
+        android:text="QUIT"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

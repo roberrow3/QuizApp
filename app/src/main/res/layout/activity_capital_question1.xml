@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.Capital_question1"
+    android:background="@drawable/dd">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:id="@+id/capitals">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="CAPITALS"
+            android:textSize="50sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="1. WHAT IS THE CAPITAL CITY OF SOUTH AFRICA"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_pretoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickpta"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="PRETORIA" />
+
+        <Button
+            android:id="@+id/btn_johannesburg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickjhb"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="JOHANNESBURG" />
+
+        <Button
+            android:id="@+id/btn_cpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickcpt"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="CAPE TOWN" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:onClick="back"
+            android:id="@+id/back"
+            android:background="@android:color/holo_blue_bright"
+            android:text="QUIT"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

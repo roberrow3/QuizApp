@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.android.quizapp.MainActivity"
+    android:background="@drawable/cd0">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="30dp"
+                android:text="ROB QUIZ"
+                android:textStyle="italic"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="?android:attr/statusBarColor"
+
+                android:onClick="capitals"
+                android:text="CAPITALS"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="?android:attr/statusBarColor"
+
+                android:onClick="tOf"
+                android:text="TRUE OR FALSE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/eng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="?android:attr/statusBarColor"
+
+                android:onClick="english"
+                android:text="ENGLISH"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Bible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="?android:attr/statusBarColor"
+
+                android:onClick="bible"
+                android:text="BIBLE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/General"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="?android:attr/statusBarColor"
+
+                android:onClick="gen"
+                android:text="GENERAL"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
